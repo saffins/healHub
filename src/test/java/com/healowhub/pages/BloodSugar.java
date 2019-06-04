@@ -53,5 +53,11 @@ public class BloodSugar {
 
 		driver.findElement(By.xpath("//*[@id='bsBackArrow']")).click();
 	}
+	
+	public void tapPlus(){
+		
+		driver.findElement(By.xpath("//*[@class='bloodsugar-tracked']//div[1]/div[1]/span/a")).click();
+		
+	}
 
 }

@@ -1,11 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
 <suite name="Suite">
-  <test thread-count="5" name="Test">
-    <classes>
-      <class name="com.healowhub.tcases.BSugarTest"/>
-         
-      
-    </classes>
-  </test> <!-- Test -->
+	<test thread-count="5" name="Test">
+
+		<listeners>
+
+			<listener class-name="com.healowhub.base.ExtentReportListener">
+			</listener>
+		</listeners>
+		<classes>
+
+
+			<class name="com.healowhub.tc.BSugarTest" />
+			<class name="com.healowhub.tc.BPressureTest" />
+			<class name="com.healowhub.tc.ScrollTest" />
+			<class name="com.healowhub.tc.BMITest" />
+			<class name="com.healowhub.tc.CaloriesTest" />
+			<class name="com.healowhub.tc.Scroll2Test" />
+			<class name="com.healowhub.tc.DistanceTest" />
+			<class name="com.healowhub.tc.FloorsTest" />
+			<class name="com.healowhub.tc.Scroll3Test" />
+			<class name="com.healowhub.tc.SleepTest" />
+			<class name="com.healowhub.tc.StepsTest" />
+			<class name="com.healowhub.tc.Scroll4Test" />
+
+
+		</classes>
+	</test> <!-- Test -->
 </suite> <!-- Suite -->

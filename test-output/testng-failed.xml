@@ -3,13 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.healowhub.tcases.BSugarTest">
+      <class name="com.healowcom.tc.LoginTest">
         <methods>
           <include name="start"/>
-          <include name="weekOneSummary"/>
-          <include name="weekOneLogs"/>
+          <include name="enterPractice"/>
         </methods>
-      </class> <!-- com.healowhub.tcases.BSugarTest -->
+      </class> <!-- com.healowcom.tc.LoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

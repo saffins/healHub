@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+<suite name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.healowhub.base.ExtentReportListener"/>
+  </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.healowhub.tcases.BPressureTest">
+      <class name="com.healowcom.tc.LoginTest">
         <methods>
-          <include name="verify4WeeksData"/>
           <include name="start"/>
-          <include name="verify12WeeksData"/>
-          <include name="verify1WeekData"/>
+          <include name="enterPractice"/>
         </methods>
-      </class> <!-- com.healowhub.tcases.BPressureTest -->
+      </class> <!-- com.healowcom.tc.LoginTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

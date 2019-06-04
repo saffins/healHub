@@ -1,0 +1,1112 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>I:\eclipse mars\eclipse\D\workspace\HealowHub\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">34 methods, 1 failed,   33 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.healowhub.tc.BMITest" hash-for-method="weekOne">weekOne</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.healowhub.tc.BSugarTest" hash-for-method="hubScreen">hubScreen</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.healowhub.tc.BSugarTest" hash-for-method="oneWeek">oneWeek</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.healowhub.tc.Scroll2Test" hash-for-method="scroll">scroll</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.healowhub.tc.ScrollTest" hash-for-method="scroll">scroll</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.healowhub.tc.Scroll3Test" hash-for-method="scroll">scroll</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.healowhub.tc.BSugarTest" hash-for-method="twelveWeek">twelveWeek</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.healowhub.tc.BPressureTest" hash-for-method="verify12WeeksData">verify12WeeksData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.healowhub.tc.BPressureTest" hash-for-method="verify1WeekData">verify1WeekData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.healowhub.tc.BPressureTest" hash-for-method="verify4WeeksData">verify4WeeksData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.healowhub.tc.BMITest" hash-for-method="verifyTitle">verifyTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.healowhub.tc.StepsTest" hash-for-method="verifyTitle">verifyTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.healowhub.tc.SleepTest" hash-for-method="verifyTitle">verifyTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.healowhub.tc.BPressureTest" hash-for-method="verifyTitle">verifyTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.healowhub.tc.FloorsTest" hash-for-method="verifyTitle">verifyTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.healowhub.tc.CaloriesTest" hash-for-method="verifyTitle">verifyTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.healowhub.tc.DistanceTest" hash-for-method="verifyTitle">verifyTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.healowhub.tc.CaloriesTest" hash-for-method="weekFour">weekFour</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.healowhub.tc.DistanceTest" hash-for-method="weekFour">weekFour</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.healowhub.tc.FloorsTest" hash-for-method="weekFour">weekFour</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.healowhub.tc.StepsTest" hash-for-method="weekFour">weekFour</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.healowhub.tc.BMITest" hash-for-method="weekFour">weekFour</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.healowhub.tc.SleepTest" hash-for-method="weekFour">weekFour</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.healowhub.tc.CaloriesTest" hash-for-method="weekOne">weekOne</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.healowhub.tc.DistanceTest" hash-for-method="weekOne">weekOne</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.healowhub.tc.SleepTest" hash-for-method="weekOne">weekOne</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.healowhub.tc.FloorsTest" hash-for-method="weekOne">weekOne</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.healowhub.tc.StepsTest" hash-for-method="weekOne">weekOne</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.healowhub.tc.DistanceTest" hash-for-method="weekTwelve">weekTwelve</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.healowhub.tc.BMITest" hash-for-method="weekTwelve">weekTwelve</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.healowhub.tc.CaloriesTest" hash-for-method="weekTwelve">weekTwelve</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.healowhub.tc.SleepTest" hash-for-method="weekTwelve">weekTwelve</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.healowhub.tc.StepsTest" hash-for-method="weekTwelve">weekTwelve</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.healowhub.tc.FloorsTest" hash-for-method="weekTwelve">weekTwelve</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.healowhub.tc.BMITest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="weekOne">
+                  </a> <!-- weekOne -->
+                  <span class="method-name">weekOne</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at com.healowhub.tc.BMITest.weekOne(BMITest.java:41)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.healowhub.tc.CaloriesTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTitle">
+                  </a> <!-- verifyTitle -->
+                  <span class="method-name">verifyTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="weekFour">
+                  </a> <!-- weekFour -->
+                  <span class="method-name">weekFour</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="weekOne">
+                  </a> <!-- weekOne -->
+                  <span class="method-name">weekOne</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="weekTwelve">
+                  </a> <!-- weekTwelve -->
+                  <span class="method-name">weekTwelve</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.healowhub.tc.DistanceTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTitle">
+                  </a> <!-- verifyTitle -->
+                  <span class="method-name">verifyTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="weekFour">
+                  </a> <!-- weekFour -->
+                  <span class="method-name">weekFour</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="weekOne">
+                  </a> <!-- weekOne -->
+                  <span class="method-name">weekOne</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="weekTwelve">
+                  </a> <!-- weekTwelve -->
+                  <span class="method-name">weekTwelve</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.healowhub.tc.StepsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTitle">
+                  </a> <!-- verifyTitle -->
+                  <span class="method-name">verifyTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="weekFour">
+                  </a> <!-- weekFour -->
+                  <span class="method-name">weekFour</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="weekOne">
+                  </a> <!-- weekOne -->
+                  <span class="method-name">weekOne</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="weekTwelve">
+                  </a> <!-- weekTwelve -->
+                  <span class="method-name">weekTwelve</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.healowhub.tc.FloorsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTitle">
+                  </a> <!-- verifyTitle -->
+                  <span class="method-name">verifyTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="weekFour">
+                  </a> <!-- weekFour -->
+                  <span class="method-name">weekFour</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="weekOne">
+                  </a> <!-- weekOne -->
+                  <span class="method-name">weekOne</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="weekTwelve">
+                  </a> <!-- weekTwelve -->
+                  <span class="method-name">weekTwelve</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.healowhub.tc.BMITest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTitle">
+                  </a> <!-- verifyTitle -->
+                  <span class="method-name">verifyTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="weekFour">
+                  </a> <!-- weekFour -->
+                  <span class="method-name">weekFour</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="weekTwelve">
+                  </a> <!-- weekTwelve -->
+                  <span class="method-name">weekTwelve</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.healowhub.tc.SleepTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTitle">
+                  </a> <!-- verifyTitle -->
+                  <span class="method-name">verifyTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="weekFour">
+                  </a> <!-- weekFour -->
+                  <span class="method-name">weekFour</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="weekOne">
+                  </a> <!-- weekOne -->
+                  <span class="method-name">weekOne</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="weekTwelve">
+                  </a> <!-- weekTwelve -->
+                  <span class="method-name">weekTwelve</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.healowhub.tc.ScrollTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="scroll">
+                  </a> <!-- scroll -->
+                  <span class="method-name">scroll</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.healowhub.tc.Scroll3Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="scroll">
+                  </a> <!-- scroll -->
+                  <span class="method-name">scroll</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.healowhub.tc.BSugarTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="hubScreen">
+                  </a> <!-- hubScreen -->
+                  <span class="method-name">hubScreen</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="oneWeek">
+                  </a> <!-- oneWeek -->
+                  <span class="method-name">oneWeek</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="twelveWeek">
+                  </a> <!-- twelveWeek -->
+                  <span class="method-name">twelveWeek</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.healowhub.tc.BPressureTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify12WeeksData">
+                  </a> <!-- verify12WeeksData -->
+                  <span class="method-name">verify12WeeksData</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify1WeekData">
+                  </a> <!-- verify1WeekData -->
+                  <span class="method-name">verify1WeekData</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify4WeeksData">
+                  </a> <!-- verify4WeeksData -->
+                  <span class="method-name">verify4WeeksData</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTitle">
+                  </a> <!-- verifyTitle -->
+                  <span class="method-name">verifyTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.healowhub.tc.Scroll2Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="scroll">
+                  </a> <!-- scroll -->
+                  <span class="method-name">scroll</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">I:\eclipse mars\eclipse\D\workspace\HealowHub\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite verbose=&quot;0&quot; name=&quot;Suite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.healowhub.base.ExtentReportListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.healowhub.tc.BSugarTest&quot;/&gt;
+      &lt;class name=&quot;com.healowhub.tc.BPressureTest&quot;/&gt;
+      &lt;class name=&quot;com.healowhub.tc.ScrollTest&quot;/&gt;
+      &lt;class name=&quot;com.healowhub.tc.BMITest&quot;/&gt;
+      &lt;class name=&quot;com.healowhub.tc.CaloriesTest&quot;/&gt;
+      &lt;class name=&quot;com.healowhub.tc.Scroll2Test&quot;/&gt;
+      &lt;class name=&quot;com.healowhub.tc.DistanceTest&quot;/&gt;
+      &lt;class name=&quot;com.healowhub.tc.FloorsTest&quot;/&gt;
+      &lt;class name=&quot;com.healowhub.tc.Scroll3Test&quot;/&gt;
+      &lt;class name=&quot;com.healowhub.tc.SleepTest&quot;/&gt;
+      &lt;class name=&quot;com.healowhub.tc.StepsTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (11 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(34);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'hubScreen')
+data.setCell(0, 2, 'com.healowhub.tc.BSugarTest')
+data.setCell(0, 3, 20199);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'weekOne')
+data.setCell(1, 2, 'com.healowhub.tc.BMITest')
+data.setCell(1, 3, 168);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'oneWeek')
+data.setCell(2, 2, 'com.healowhub.tc.BSugarTest')
+data.setCell(2, 3, 152);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'weekFour')
+data.setCell(3, 2, 'com.healowhub.tc.DistanceTest')
+data.setCell(3, 3, 138);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verify4WeeksData')
+data.setCell(4, 2, 'com.healowhub.tc.BPressureTest')
+data.setCell(4, 3, 129);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'weekOne')
+data.setCell(5, 2, 'com.healowhub.tc.CaloriesTest')
+data.setCell(5, 3, 127);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'weekOne')
+data.setCell(6, 2, 'com.healowhub.tc.StepsTest')
+data.setCell(6, 3, 126);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'weekFour')
+data.setCell(7, 2, 'com.healowhub.tc.SleepTest')
+data.setCell(7, 3, 122);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'weekFour')
+data.setCell(8, 2, 'com.healowhub.tc.BMITest')
+data.setCell(8, 3, 119);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'weekOne')
+data.setCell(9, 2, 'com.healowhub.tc.SleepTest')
+data.setCell(9, 3, 119);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'weekFour')
+data.setCell(10, 2, 'com.healowhub.tc.CaloriesTest')
+data.setCell(10, 3, 118);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'weekOne')
+data.setCell(11, 2, 'com.healowhub.tc.DistanceTest')
+data.setCell(11, 3, 114);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'weekOne')
+data.setCell(12, 2, 'com.healowhub.tc.FloorsTest')
+data.setCell(12, 3, 113);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'twelveWeek')
+data.setCell(13, 2, 'com.healowhub.tc.BSugarTest')
+data.setCell(13, 3, 110);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'weekFour')
+data.setCell(14, 2, 'com.healowhub.tc.FloorsTest')
+data.setCell(14, 3, 108);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'weekTwelve')
+data.setCell(15, 2, 'com.healowhub.tc.CaloriesTest')
+data.setCell(15, 3, 104);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'verify1WeekData')
+data.setCell(16, 2, 'com.healowhub.tc.BPressureTest')
+data.setCell(16, 3, 102);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'weekTwelve')
+data.setCell(17, 2, 'com.healowhub.tc.SleepTest')
+data.setCell(17, 3, 101);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'weekTwelve')
+data.setCell(18, 2, 'com.healowhub.tc.DistanceTest')
+data.setCell(18, 3, 100);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'weekTwelve')
+data.setCell(19, 2, 'com.healowhub.tc.BMITest')
+data.setCell(19, 3, 99);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'weekTwelve')
+data.setCell(20, 2, 'com.healowhub.tc.FloorsTest')
+data.setCell(20, 3, 98);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'weekTwelve')
+data.setCell(21, 2, 'com.healowhub.tc.StepsTest')
+data.setCell(21, 3, 94);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'weekFour')
+data.setCell(22, 2, 'com.healowhub.tc.StepsTest')
+data.setCell(22, 3, 93);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'verify12WeeksData')
+data.setCell(23, 2, 'com.healowhub.tc.BPressureTest')
+data.setCell(23, 3, 91);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'verifyTitle')
+data.setCell(24, 2, 'com.healowhub.tc.BMITest')
+data.setCell(24, 3, 83);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'verifyTitle')
+data.setCell(25, 2, 'com.healowhub.tc.BPressureTest')
+data.setCell(25, 3, 75);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'verifyTitle')
+data.setCell(26, 2, 'com.healowhub.tc.SleepTest')
+data.setCell(26, 3, 43);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'verifyTitle')
+data.setCell(27, 2, 'com.healowhub.tc.DistanceTest')
+data.setCell(27, 3, 42);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'verifyTitle')
+data.setCell(28, 2, 'com.healowhub.tc.CaloriesTest')
+data.setCell(28, 3, 38);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'verifyTitle')
+data.setCell(29, 2, 'com.healowhub.tc.StepsTest')
+data.setCell(29, 3, 35);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'verifyTitle')
+data.setCell(30, 2, 'com.healowhub.tc.FloorsTest')
+data.setCell(30, 3, 35);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'scroll')
+data.setCell(31, 2, 'com.healowhub.tc.Scroll2Test')
+data.setCell(31, 3, 7);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'scroll')
+data.setCell(32, 2, 'com.healowhub.tc.ScrollTest')
+data.setCell(32, 3, 6);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'scroll')
+data.setCell(33, 2, 'com.healowhub.tc.Scroll3Test')
+data.setCell(33, 3, 5);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 23 seconds</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">10 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.healowhub.tc.CaloriesTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">start</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.healowhub.tc.DistanceTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">start</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.healowhub.tc.StepsTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">start</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.healowhub.tc.FloorsTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">start</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.healowhub.tc.BMITest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">start</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.healowhub.tc.SleepTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">start</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.healowhub.tc.ScrollTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">start</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.healowhub.tc.Scroll3Test</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">start</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.healowhub.tc.BPressureTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">start</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.healowhub.tc.Scroll2Test</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">start</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.healowhub.tc.BSugarTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">start</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="test-method">
+                <span class="method-name">hubScreen</span>
+                <span class="method-start">33715 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">oneWeek</span>
+                <span class="method-start">53916 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">twelveWeek</span>
+                <span class="method-start">54068 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.healowhub.tc.BPressureTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyTitle</span>
+                <span class="method-start">54178 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify1WeekData</span>
+                <span class="method-start">54253 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify4WeeksData</span>
+                <span class="method-start">54356 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify12WeeksData</span>
+                <span class="method-start">54485 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.healowhub.tc.ScrollTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">scroll</span>
+                <span class="method-start">54576 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.healowhub.tc.BMITest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyTitle</span>
+                <span class="method-start">54582 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">weekOne</span>
+                <span class="method-start">54665 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">weekFour</span>
+                <span class="method-start">54837 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">weekTwelve</span>
+                <span class="method-start">54957 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.healowhub.tc.CaloriesTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyTitle</span>
+                <span class="method-start">55056 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">weekOne</span>
+                <span class="method-start">55095 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">weekFour</span>
+                <span class="method-start">55222 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">weekTwelve</span>
+                <span class="method-start">55340 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.healowhub.tc.Scroll2Test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">scroll</span>
+                <span class="method-start">55445 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.healowhub.tc.DistanceTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyTitle</span>
+                <span class="method-start">55452 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">weekOne</span>
+                <span class="method-start">55495 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">weekFour</span>
+                <span class="method-start">55609 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">weekTwelve</span>
+                <span class="method-start">55748 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.healowhub.tc.FloorsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyTitle</span>
+                <span class="method-start">55848 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">weekOne</span>
+                <span class="method-start">55883 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">weekFour</span>
+                <span class="method-start">55997 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">weekTwelve</span>
+                <span class="method-start">56106 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.healowhub.tc.Scroll3Test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">scroll</span>
+                <span class="method-start">56205 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.healowhub.tc.SleepTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyTitle</span>
+                <span class="method-start">56211 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">weekOne</span>
+                <span class="method-start">56254 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">weekFour</span>
+                <span class="method-start">56374 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">weekTwelve</span>
+                <span class="method-start">56496 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.healowhub.tc.StepsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyTitle</span>
+                <span class="method-start">56598 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">weekOne</span>
+                <span class="method-start">56633 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">weekFour</span>
+                <span class="method-start">56759 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">weekTwelve</span>
+                <span class="method-start">56853 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
