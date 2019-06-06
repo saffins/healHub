@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="23.219" tests="34" errors="0" skipped="0" failures="1">
+<testsuite name="TestSuite" time="19.627" tests="35" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_201\jre\bin"/>
@@ -62,44 +62,39 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="hubScreen" classname="com.healowhub.tc.BSugarTest" time="20.197"/>
-  <testcase name="oneWeek" classname="com.healowhub.tc.BSugarTest" time="0.152"/>
-  <testcase name="twelveWeek" classname="com.healowhub.tc.BSugarTest" time="0.111"/>
-  <testcase name="verifyTitle" classname="com.healowhub.tc.BPressureTest" time="0.073"/>
-  <testcase name="verify1WeekData" classname="com.healowhub.tc.BPressureTest" time="0.103"/>
-  <testcase name="verify4WeeksData" classname="com.healowhub.tc.BPressureTest" time="0.13"/>
-  <testcase name="verify12WeeksData" classname="com.healowhub.tc.BPressureTest" time="0.09"/>
-  <testcase name="scroll" classname="com.healowhub.tc.ScrollTest" time="0.004"/>
-  <testcase name="verifyTitle" classname="com.healowhub.tc.BMITest" time="0.082"/>
-  <testcase name="weekOne" classname="com.healowhub.tc.BMITest" time="0.173">
-    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
-	at org.testng.Assert.fail(Assert.java:96)
-	at org.testng.Assert.fail(Assert.java:103)
-	at com.healowhub.tc.BMITest.weekOne(BMITest.java:41)
-</failure>
-  </testcase>
-  <testcase name="weekFour" classname="com.healowhub.tc.BMITest" time="0.119"/>
-  <testcase name="weekTwelve" classname="com.healowhub.tc.BMITest" time="0.099"/>
-  <testcase name="verifyTitle" classname="com.healowhub.tc.CaloriesTest" time="0.039"/>
-  <testcase name="weekOne" classname="com.healowhub.tc.CaloriesTest" time="0.127"/>
-  <testcase name="weekFour" classname="com.healowhub.tc.CaloriesTest" time="0.118"/>
-  <testcase name="weekTwelve" classname="com.healowhub.tc.CaloriesTest" time="0.104"/>
-  <testcase name="scroll" classname="com.healowhub.tc.Scroll2Test" time="0.007"/>
-  <testcase name="verifyTitle" classname="com.healowhub.tc.DistanceTest" time="0.042"/>
-  <testcase name="weekOne" classname="com.healowhub.tc.DistanceTest" time="0.114"/>
-  <testcase name="weekFour" classname="com.healowhub.tc.DistanceTest" time="0.138"/>
-  <testcase name="weekTwelve" classname="com.healowhub.tc.DistanceTest" time="0.1"/>
-  <testcase name="verifyTitle" classname="com.healowhub.tc.FloorsTest" time="0.035"/>
-  <testcase name="weekOne" classname="com.healowhub.tc.FloorsTest" time="0.114"/>
-  <testcase name="weekFour" classname="com.healowhub.tc.FloorsTest" time="0.109"/>
-  <testcase name="weekTwelve" classname="com.healowhub.tc.FloorsTest" time="0.098"/>
-  <testcase name="scroll" classname="com.healowhub.tc.Scroll3Test" time="0.005"/>
-  <testcase name="verifyTitle" classname="com.healowhub.tc.SleepTest" time="0.044"/>
-  <testcase name="weekOne" classname="com.healowhub.tc.SleepTest" time="0.119"/>
-  <testcase name="weekFour" classname="com.healowhub.tc.SleepTest" time="0.122"/>
+  <testcase name="hubScreen" classname="com.healowhub.tc.BSugarTest" time="16.577"/>
+  <testcase name="oneWeek" classname="com.healowhub.tc.BSugarTest" time="0.125"/>
+  <testcase name="twelveWeek" classname="com.healowhub.tc.BSugarTest" time="0.159"/>
+  <testcase name="verifyTitle" classname="com.healowhub.tc.BPressureTest" time="0.038"/>
+  <testcase name="verify1WeekData" classname="com.healowhub.tc.BPressureTest" time="0.156"/>
+  <testcase name="verify4WeeksData" classname="com.healowhub.tc.BPressureTest" time="0.108"/>
+  <testcase name="verify12WeeksData" classname="com.healowhub.tc.BPressureTest" time="0.109"/>
+  <testcase name="scroll" classname="com.healowhub.tc.ScrollTest" time="0.008"/>
+  <testcase name="verifyTitle" classname="com.healowhub.tc.BMITest" time="0.04"/>
+  <testcase name="weekOne" classname="com.healowhub.tc.BMITest" time="0.183"/>
+  <testcase name="weekFour" classname="com.healowhub.tc.BMITest" time="0.109"/>
+  <testcase name="weekTwelve" classname="com.healowhub.tc.BMITest" time="0.098"/>
+  <testcase name="verifyTitle" classname="com.healowhub.tc.CaloriesTest" time="0.034"/>
+  <testcase name="weekOne" classname="com.healowhub.tc.CaloriesTest" time="0.122"/>
+  <testcase name="weekFour" classname="com.healowhub.tc.CaloriesTest" time="0.096"/>
+  <testcase name="weekTwelve" classname="com.healowhub.tc.CaloriesTest" time="0.115"/>
+  <testcase name="scroll" classname="com.healowhub.tc.Scroll2Test" time="0.006"/>
+  <testcase name="verifyTitle" classname="com.healowhub.tc.DistanceTest" time="0.036"/>
+  <testcase name="weekOne" classname="com.healowhub.tc.DistanceTest" time="0.129"/>
+  <testcase name="weekFour" classname="com.healowhub.tc.DistanceTest" time="0.088"/>
+  <testcase name="weekTwelve" classname="com.healowhub.tc.DistanceTest" time="0.155"/>
+  <testcase name="verifyTitle" classname="com.healowhub.tc.FloorsTest" time="0.047"/>
+  <testcase name="weekOne" classname="com.healowhub.tc.FloorsTest" time="0.124"/>
+  <testcase name="weekFour" classname="com.healowhub.tc.FloorsTest" time="0.093"/>
+  <testcase name="weekTwelve" classname="com.healowhub.tc.FloorsTest" time="0.096"/>
+  <testcase name="scroll" classname="com.healowhub.tc.Scroll3Test" time="0.004"/>
+  <testcase name="verifyTitle" classname="com.healowhub.tc.SleepTest" time="0.034"/>
+  <testcase name="weekOne" classname="com.healowhub.tc.SleepTest" time="0.157"/>
+  <testcase name="weekFour" classname="com.healowhub.tc.SleepTest" time="0.111"/>
   <testcase name="weekTwelve" classname="com.healowhub.tc.SleepTest" time="0.102"/>
-  <testcase name="verifyTitle" classname="com.healowhub.tc.StepsTest" time="0.035"/>
-  <testcase name="weekOne" classname="com.healowhub.tc.StepsTest" time="0.126"/>
-  <testcase name="weekFour" classname="com.healowhub.tc.StepsTest" time="0.094"/>
+  <testcase name="verifyTitle" classname="com.healowhub.tc.StepsTest" time="0.042"/>
+  <testcase name="weekOne" classname="com.healowhub.tc.StepsTest" time="0.119"/>
+  <testcase name="weekFour" classname="com.healowhub.tc.StepsTest" time="0.106"/>
   <testcase name="weekTwelve" classname="com.healowhub.tc.StepsTest" time="0.094"/>
+  <testcase name="scroll" classname="com.healowhub.tc.Scroll4Test" time="0.007"/>
 </testsuite>

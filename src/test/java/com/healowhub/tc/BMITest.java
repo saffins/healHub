@@ -23,7 +23,7 @@ public class BMITest extends Base {
 		WebElement title = driver.findElement(By.xpath("//*[contains(@onclick,'BMI')]"));
 
 		Assert.assertEquals(title.getText(), "BMI");
-	  log.info("title verified of BMI");
+		log.info("title verified of BMI");
 
 	}
 
@@ -32,18 +32,17 @@ public class BMITest extends Base {
 
 		bmi.week1();
 
-		try{Assert.assertFalse(
-				driver.findElement(By.xpath("//*[starts-with(@data-target,'#w1_bmi')][contains(@onclick,'7')]"))
-						.isDisplayed());
-		log.info("week one clickable under BMI");
-		}catch(AssertionError e){
+		try {
+			Assert.assertTrue(
+					driver.findElement(By.xpath("//*[starts-with(@data-target,'#w1_bmi')][contains(@onclick,'7')]"))
+							.isDisplayed());
+			log.info("week one clickable under BMI");
+		} catch (AssertionError e) {
 			log.info("week one unclickable under BMI");
 			Assert.fail();
-			
-			
+
 		}
-		
-		 
+
 	}
 
 	@Test(priority = 12)

@@ -6,12 +6,101 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.healowcom.tc.LoginTest">
+      <class name="com.healowhub.tc.BSugarTest">
+        <methods>
+          <include name="twelveWeek"/>
+          <include name="start"/>
+          <include name="oneWeek"/>
+          <include name="hubScreen"/>
+        </methods>
+      </class> <!-- com.healowhub.tc.BSugarTest -->
+      <class name="com.healowhub.tc.DistanceTest">
         <methods>
           <include name="start"/>
-          <include name="enterPractice"/>
+          <include name="weekFour"/>
+          <include name="verifyTitle"/>
+          <include name="weekOne"/>
+          <include name="weekTwelve"/>
         </methods>
-      </class> <!-- com.healowcom.tc.LoginTest -->
+      </class> <!-- com.healowhub.tc.DistanceTest -->
+      <class name="com.healowhub.tc.ScrollTest">
+        <methods>
+          <include name="start"/>
+          <include name="scroll"/>
+        </methods>
+      </class> <!-- com.healowhub.tc.ScrollTest -->
+      <class name="com.healowhub.tc.StepsTest">
+        <methods>
+          <include name="start"/>
+          <include name="weekFour"/>
+          <include name="weekTwelve"/>
+          <include name="weekOne"/>
+          <include name="verifyTitle"/>
+        </methods>
+      </class> <!-- com.healowhub.tc.StepsTest -->
+      <class name="com.healowhub.tc.FloorsTest">
+        <methods>
+          <include name="verifyTitle"/>
+          <include name="start"/>
+          <include name="weekFour"/>
+          <include name="weekTwelve"/>
+          <include name="weekOne"/>
+        </methods>
+      </class> <!-- com.healowhub.tc.FloorsTest -->
+      <class name="com.healowhub.tc.BPressureTest">
+        <methods>
+          <include name="verifyTitle"/>
+          <include name="start"/>
+          <include name="verify1WeekData"/>
+          <include name="verify12WeeksData"/>
+          <include name="verify4WeeksData"/>
+        </methods>
+      </class> <!-- com.healowhub.tc.BPressureTest -->
+      <class name="com.healowhub.tc.BMITest">
+        <methods>
+          <include name="weekOne"/>
+          <include name="start"/>
+          <include name="weekTwelve"/>
+          <include name="weekFour"/>
+          <include name="verifyTitle"/>
+        </methods>
+      </class> <!-- com.healowhub.tc.BMITest -->
+      <class name="com.healowhub.tc.Scroll4Test">
+        <methods>
+          <include name="start"/>
+          <include name="scroll"/>
+        </methods>
+      </class> <!-- com.healowhub.tc.Scroll4Test -->
+      <class name="com.healowhub.tc.Scroll2Test">
+        <methods>
+          <include name="start"/>
+          <include name="scroll"/>
+        </methods>
+      </class> <!-- com.healowhub.tc.Scroll2Test -->
+      <class name="com.healowhub.tc.CaloriesTest">
+        <methods>
+          <include name="weekFour"/>
+          <include name="verifyTitle"/>
+          <include name="start"/>
+          <include name="weekTwelve"/>
+          <include name="weekOne"/>
+        </methods>
+      </class> <!-- com.healowhub.tc.CaloriesTest -->
+      <class name="com.healowhub.tc.Scroll3Test">
+        <methods>
+          <include name="scroll"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- com.healowhub.tc.Scroll3Test -->
+      <class name="com.healowhub.tc.SleepTest">
+        <methods>
+          <include name="start"/>
+          <include name="weekTwelve"/>
+          <include name="verifyTitle"/>
+          <include name="weekOne"/>
+          <include name="weekFour"/>
+        </methods>
+      </class> <!-- com.healowhub.tc.SleepTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -13,11 +13,20 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.BeforeSuite;
 
+import com.healowhub.utils.ExtentManager;
+import com.relevantcodes.extentreports.ExtentReports;
+import com.relevantcodes.extentreports.ExtentTest;
+
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Base {
 	public static Logger log = LogManager.getLogger(Base.class.getName());
 	public static WebDriver driver;
+	
+	public ExtentReports report = ExtentManager.getInstance();
+	public static ExtentTest test;
+	public static String path = "I:\\eclipse mars\\eclipse\\D\\workspace\\HealowHub\\test-output";
+
 
 	@BeforeSuite
 	public void start() throws InterruptedException {
@@ -55,7 +64,7 @@ public class Base {
 		a.sendKeys(Keys.ENTER).build().perform();
 		Thread.sleep(3000);
 
-		driver.findElement(By.xpath("//*[@ng-if='PatientHubInfo.isHealowDataEnabled == false']")).click();
+		driver.findElement(By.xpath("//*[@ng-if='PatientHubInfo.isHealowDataEnabled == true']")).click();
 		//
 	}
 

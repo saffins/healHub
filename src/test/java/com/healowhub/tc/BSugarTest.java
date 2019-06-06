@@ -12,9 +12,10 @@ import org.testng.annotations.Test;
 
 import com.healowhub.base.Base;
 import com.healowhub.pages.BloodSugar;
+import com.relevantcodes.extentreports.LogStatus;
 
 public class BSugarTest extends Base {
-	public static Logger log = LogManager.getLogger(Base.class.getName());
+	//public static Logger log = LogManager.getLogger(Base.class.getName());
 
 	BloodSugar bs;
 
@@ -26,15 +27,17 @@ public class BSugarTest extends Base {
 
 		WebElement hubScr = driver.findElement(By.xpath("//*[contains(@onclick,'BloodSugar')]"));
 		Assert.assertEquals(hubScr.getText(), "Blood Sugar", "found blood sugar");
-		  log.info("title verified of Blood Sugar");
+		//  log.info("title verified of Blood Sugar");
 
+		test.log(LogStatus.INFO, "clicked on hubscreen");
 	}
 
 	@Test(priority = 2)
 	public void oneWeek() throws InterruptedException {
 
 		bs.week1();
-		log.info("week one clickable under Blood Sugar");
+		//log.info("week one clickable under Blood Sugar");
+		test.log(LogStatus.INFO, "clicked on oneWeek");
 
 	}
 
@@ -42,7 +45,8 @@ public class BSugarTest extends Base {
 	public void twelveWeek() {
 
 		bs.weeks12();
-		log.info("week twelve clickable under Blood Sugar");
+		//log.info("week twelve clickable under Blood Sugar");
+		test.log(LogStatus.INFO, "clicked on twelveWeek");
 
 	}
 	
