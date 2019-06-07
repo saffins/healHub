@@ -18,7 +18,7 @@ public class CustomerListener   extends Base implements ITestListener {
 
 	public void onTestSuccess(ITestResult result) {
 
-		test.log(LogStatus.PASS, "passed the testcase " + result.getName().toUpperCase() + " passed  ");
+		test.log(LogStatus.PASS, "passed the testcase under " + result.getClass().getName() +  " method name " +result.getName().toUpperCase() + " passed  ");
 		//test.log(LogStatus.PASS, test.addScreenCapture(Base.path));
 		report.endTest(test);
 		report.flush();

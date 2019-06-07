@@ -2,10 +2,16 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]">
   <listeners>
-    <listener class-name="com.healowhub.base.ExtentReportListener"/>
+    <listener class-name="com.healowhub.utils.CustomerListener"/>
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
+      <class name="com.healowhub.tc.Scroll4Test">
+        <methods>
+          <include name="start"/>
+          <include name="scroll"/>
+        </methods>
+      </class> <!-- com.healowhub.tc.Scroll4Test -->
       <class name="com.healowhub.tc.BSugarTest">
         <methods>
           <include name="twelveWeek"/>
@@ -14,6 +20,39 @@
           <include name="hubScreen"/>
         </methods>
       </class> <!-- com.healowhub.tc.BSugarTest -->
+      <class name="com.healowhub.tc.SleepTest">
+        <methods>
+          <include name="start"/>
+          <include name="weekTwelve"/>
+          <include name="verifyTitle"/>
+          <include name="weekOne"/>
+          <include name="weekFour"/>
+        </methods>
+      </class> <!-- com.healowhub.tc.SleepTest -->
+      <class name="com.healowhub.tc.BMITest">
+        <methods>
+          <include name="weekOne"/>
+          <include name="start"/>
+          <include name="weekTwelve"/>
+          <include name="weekFour"/>
+          <include name="verifyTitle"/>
+        </methods>
+      </class> <!-- com.healowhub.tc.BMITest -->
+      <class name="com.healowhub.tc.ScrollTest">
+        <methods>
+          <include name="start"/>
+          <include name="scroll"/>
+        </methods>
+      </class> <!-- com.healowhub.tc.ScrollTest -->
+      <class name="com.healowhub.tc.CaloriesTest">
+        <methods>
+          <include name="weekFour"/>
+          <include name="verifyTitle"/>
+          <include name="start"/>
+          <include name="weekTwelve"/>
+          <include name="weekOne"/>
+        </methods>
+      </class> <!-- com.healowhub.tc.CaloriesTest -->
       <class name="com.healowhub.tc.DistanceTest">
         <methods>
           <include name="start"/>
@@ -23,12 +62,12 @@
           <include name="weekTwelve"/>
         </methods>
       </class> <!-- com.healowhub.tc.DistanceTest -->
-      <class name="com.healowhub.tc.ScrollTest">
+      <class name="com.healowhub.tc.Scroll3Test">
         <methods>
-          <include name="start"/>
           <include name="scroll"/>
+          <include name="start"/>
         </methods>
-      </class> <!-- com.healowhub.tc.ScrollTest -->
+      </class> <!-- com.healowhub.tc.Scroll3Test -->
       <class name="com.healowhub.tc.StepsTest">
         <methods>
           <include name="start"/>
@@ -56,51 +95,12 @@
           <include name="verify4WeeksData"/>
         </methods>
       </class> <!-- com.healowhub.tc.BPressureTest -->
-      <class name="com.healowhub.tc.BMITest">
-        <methods>
-          <include name="weekOne"/>
-          <include name="start"/>
-          <include name="weekTwelve"/>
-          <include name="weekFour"/>
-          <include name="verifyTitle"/>
-        </methods>
-      </class> <!-- com.healowhub.tc.BMITest -->
-      <class name="com.healowhub.tc.Scroll4Test">
-        <methods>
-          <include name="start"/>
-          <include name="scroll"/>
-        </methods>
-      </class> <!-- com.healowhub.tc.Scroll4Test -->
       <class name="com.healowhub.tc.Scroll2Test">
         <methods>
           <include name="start"/>
           <include name="scroll"/>
         </methods>
       </class> <!-- com.healowhub.tc.Scroll2Test -->
-      <class name="com.healowhub.tc.CaloriesTest">
-        <methods>
-          <include name="weekFour"/>
-          <include name="verifyTitle"/>
-          <include name="start"/>
-          <include name="weekTwelve"/>
-          <include name="weekOne"/>
-        </methods>
-      </class> <!-- com.healowhub.tc.CaloriesTest -->
-      <class name="com.healowhub.tc.Scroll3Test">
-        <methods>
-          <include name="scroll"/>
-          <include name="start"/>
-        </methods>
-      </class> <!-- com.healowhub.tc.Scroll3Test -->
-      <class name="com.healowhub.tc.SleepTest">
-        <methods>
-          <include name="start"/>
-          <include name="weekTwelve"/>
-          <include name="verifyTitle"/>
-          <include name="weekOne"/>
-          <include name="weekFour"/>
-        </methods>
-      </class> <!-- com.healowhub.tc.SleepTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

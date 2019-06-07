@@ -2,174 +2,174 @@
 <testng-results skipped="0" failed="0" ignored="11" total="46" passed="35">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="16071" started-at="2019-06-06T14:40:07Z" finished-at="2019-06-06T14:40:23Z">
+  <suite name="Suite" duration-ms="19777" started-at="2019-06-07T09:44:45Z" finished-at="2019-06-07T09:45:04Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="16071" started-at="2019-06-06T14:40:07Z" finished-at="2019-06-06T14:40:23Z">
+    <test name="Test" duration-ms="19777" started-at="2019-06-07T09:44:45Z" finished-at="2019-06-07T09:45:04Z">
       <class name="com.healowhub.tc.BPressureTest">
-        <test-method status="PASS" signature="verifyTitle()[pri:5, instance:com.healowhub.tc.BPressureTest@fa36558]" name="verifyTitle" duration-ms="36" started-at="2019-06-06T14:40:20Z" finished-at="2019-06-06T14:40:20Z">
+        <test-method status="PASS" signature="verifyTitle()[pri:5, instance:com.healowhub.tc.BPressureTest@fa36558]" name="verifyTitle" duration-ms="116" started-at="2019-06-07T09:44:59Z" finished-at="2019-06-07T09:44:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTitle -->
-        <test-method status="PASS" signature="verify1WeekData()[pri:6, instance:com.healowhub.tc.BPressureTest@fa36558]" name="verify1WeekData" duration-ms="106" started-at="2019-06-06T14:40:20Z" finished-at="2019-06-06T14:40:20Z">
+        <test-method status="PASS" signature="verify1WeekData()[pri:6, instance:com.healowhub.tc.BPressureTest@fa36558]" name="verify1WeekData" duration-ms="231" started-at="2019-06-07T09:44:59Z" finished-at="2019-06-07T09:44:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify1WeekData -->
-        <test-method status="PASS" signature="verify4WeeksData()[pri:7, instance:com.healowhub.tc.BPressureTest@fa36558]" name="verify4WeeksData" duration-ms="124" started-at="2019-06-06T14:40:20Z" finished-at="2019-06-06T14:40:20Z">
+        <test-method status="PASS" signature="verify4WeeksData()[pri:7, instance:com.healowhub.tc.BPressureTest@fa36558]" name="verify4WeeksData" duration-ms="140" started-at="2019-06-07T09:44:59Z" finished-at="2019-06-07T09:45:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify4WeeksData -->
-        <test-method status="PASS" signature="verify12WeeksData()[pri:8, instance:com.healowhub.tc.BPressureTest@fa36558]" name="verify12WeeksData" duration-ms="88" started-at="2019-06-06T14:40:20Z" finished-at="2019-06-06T14:40:20Z">
+        <test-method status="PASS" signature="verify12WeeksData()[pri:8, instance:com.healowhub.tc.BPressureTest@fa36558]" name="verify12WeeksData" duration-ms="192" started-at="2019-06-07T09:45:00Z" finished-at="2019-06-07T09:45:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify12WeeksData -->
       </class> <!-- com.healowhub.tc.BPressureTest -->
       <class name="com.healowhub.tc.Scroll4Test">
-        <test-method status="PASS" signature="scroll()[pri:36, instance:com.healowhub.tc.Scroll4Test@7c83dc97]" name="scroll" duration-ms="7" started-at="2019-06-06T14:40:23Z" finished-at="2019-06-06T14:40:23Z">
+        <test-method status="PASS" signature="scroll()[pri:36, instance:com.healowhub.tc.Scroll4Test@7c83dc97]" name="scroll" duration-ms="12" started-at="2019-06-07T09:45:04Z" finished-at="2019-06-07T09:45:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- scroll -->
       </class> <!-- com.healowhub.tc.Scroll4Test -->
       <class name="com.healowhub.tc.BMITest">
-        <test-method status="PASS" signature="verifyTitle()[pri:10, instance:com.healowhub.tc.BMITest@32910148]" name="verifyTitle" duration-ms="67" started-at="2019-06-06T14:40:20Z" finished-at="2019-06-06T14:40:20Z">
+        <test-method status="PASS" signature="verifyTitle()[pri:10, instance:com.healowhub.tc.BMITest@32910148]" name="verifyTitle" duration-ms="56" started-at="2019-06-07T09:45:00Z" finished-at="2019-06-07T09:45:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTitle -->
-        <test-method status="PASS" signature="weekOne()[pri:11, instance:com.healowhub.tc.BMITest@32910148]" name="weekOne" duration-ms="188" started-at="2019-06-06T14:40:20Z" finished-at="2019-06-06T14:40:21Z">
+        <test-method status="PASS" signature="weekOne()[pri:11, instance:com.healowhub.tc.BMITest@32910148]" name="weekOne" duration-ms="148" started-at="2019-06-07T09:45:00Z" finished-at="2019-06-07T09:45:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- weekOne -->
-        <test-method status="PASS" signature="weekFour()[pri:12, instance:com.healowhub.tc.BMITest@32910148]" name="weekFour" duration-ms="104" started-at="2019-06-06T14:40:21Z" finished-at="2019-06-06T14:40:21Z">
+        <test-method status="PASS" signature="weekFour()[pri:12, instance:com.healowhub.tc.BMITest@32910148]" name="weekFour" duration-ms="142" started-at="2019-06-07T09:45:00Z" finished-at="2019-06-07T09:45:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- weekFour -->
-        <test-method status="PASS" signature="weekTwelve()[pri:13, instance:com.healowhub.tc.BMITest@32910148]" name="weekTwelve" duration-ms="96" started-at="2019-06-06T14:40:21Z" finished-at="2019-06-06T14:40:21Z">
+        <test-method status="PASS" signature="weekTwelve()[pri:13, instance:com.healowhub.tc.BMITest@32910148]" name="weekTwelve" duration-ms="273" started-at="2019-06-07T09:45:00Z" finished-at="2019-06-07T09:45:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- weekTwelve -->
       </class> <!-- com.healowhub.tc.BMITest -->
       <class name="com.healowhub.tc.SleepTest">
-        <test-method status="PASS" signature="verifyTitle()[pri:28, instance:com.healowhub.tc.SleepTest@484970b0]" name="verifyTitle" duration-ms="34" started-at="2019-06-06T14:40:22Z" finished-at="2019-06-06T14:40:22Z">
+        <test-method status="PASS" signature="verifyTitle()[pri:28, instance:com.healowhub.tc.SleepTest@484970b0]" name="verifyTitle" duration-ms="81" started-at="2019-06-07T09:45:03Z" finished-at="2019-06-07T09:45:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTitle -->
-        <test-method status="PASS" signature="weekOne()[pri:29, instance:com.healowhub.tc.SleepTest@484970b0]" name="weekOne" duration-ms="132" started-at="2019-06-06T14:40:22Z" finished-at="2019-06-06T14:40:23Z">
+        <test-method status="PASS" signature="weekOne()[pri:29, instance:com.healowhub.tc.SleepTest@484970b0]" name="weekOne" duration-ms="183" started-at="2019-06-07T09:45:03Z" finished-at="2019-06-07T09:45:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- weekOne -->
-        <test-method status="PASS" signature="weekFour()[pri:30, instance:com.healowhub.tc.SleepTest@484970b0]" name="weekFour" duration-ms="111" started-at="2019-06-06T14:40:23Z" finished-at="2019-06-06T14:40:23Z">
+        <test-method status="PASS" signature="weekFour()[pri:30, instance:com.healowhub.tc.SleepTest@484970b0]" name="weekFour" duration-ms="124" started-at="2019-06-07T09:45:03Z" finished-at="2019-06-07T09:45:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- weekFour -->
-        <test-method status="PASS" signature="weekTwelve()[pri:31, instance:com.healowhub.tc.SleepTest@484970b0]" name="weekTwelve" duration-ms="95" started-at="2019-06-06T14:40:23Z" finished-at="2019-06-06T14:40:23Z">
+        <test-method status="PASS" signature="weekTwelve()[pri:31, instance:com.healowhub.tc.SleepTest@484970b0]" name="weekTwelve" duration-ms="129" started-at="2019-06-07T09:45:04Z" finished-at="2019-06-07T09:45:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- weekTwelve -->
       </class> <!-- com.healowhub.tc.SleepTest -->
       <class name="com.healowhub.tc.DistanceTest">
-        <test-method status="PASS" signature="verifyTitle()[pri:19, instance:com.healowhub.tc.DistanceTest@fd07cbb]" name="verifyTitle" duration-ms="36" started-at="2019-06-06T14:40:21Z" finished-at="2019-06-06T14:40:22Z">
+        <test-method status="PASS" signature="verifyTitle()[pri:19, instance:com.healowhub.tc.DistanceTest@fd07cbb]" name="verifyTitle" duration-ms="78" started-at="2019-06-07T09:45:02Z" finished-at="2019-06-07T09:45:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTitle -->
-        <test-method status="PASS" signature="weekOne()[pri:20, instance:com.healowhub.tc.DistanceTest@fd07cbb]" name="weekOne" duration-ms="177" started-at="2019-06-06T14:40:22Z" finished-at="2019-06-06T14:40:22Z">
+        <test-method status="PASS" signature="weekOne()[pri:20, instance:com.healowhub.tc.DistanceTest@fd07cbb]" name="weekOne" duration-ms="164" started-at="2019-06-07T09:45:02Z" finished-at="2019-06-07T09:45:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- weekOne -->
-        <test-method status="PASS" signature="weekFour()[pri:21, instance:com.healowhub.tc.DistanceTest@fd07cbb]" name="weekFour" duration-ms="113" started-at="2019-06-06T14:40:22Z" finished-at="2019-06-06T14:40:22Z">
+        <test-method status="PASS" signature="weekFour()[pri:21, instance:com.healowhub.tc.DistanceTest@fd07cbb]" name="weekFour" duration-ms="93" started-at="2019-06-07T09:45:02Z" finished-at="2019-06-07T09:45:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- weekFour -->
-        <test-method status="PASS" signature="weekTwelve()[pri:22, instance:com.healowhub.tc.DistanceTest@fd07cbb]" name="weekTwelve" duration-ms="93" started-at="2019-06-06T14:40:22Z" finished-at="2019-06-06T14:40:22Z">
+        <test-method status="PASS" signature="weekTwelve()[pri:22, instance:com.healowhub.tc.DistanceTest@fd07cbb]" name="weekTwelve" duration-ms="109" started-at="2019-06-07T09:45:02Z" finished-at="2019-06-07T09:45:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- weekTwelve -->
       </class> <!-- com.healowhub.tc.DistanceTest -->
       <class name="com.healowhub.tc.Scroll2Test">
-        <test-method status="PASS" signature="scroll()[pri:18, instance:com.healowhub.tc.Scroll2Test@2b4bac49]" name="scroll" duration-ms="23" started-at="2019-06-06T14:40:21Z" finished-at="2019-06-06T14:40:21Z">
+        <test-method status="PASS" signature="scroll()[pri:18, instance:com.healowhub.tc.Scroll2Test@2b4bac49]" name="scroll" duration-ms="40" started-at="2019-06-07T09:45:02Z" finished-at="2019-06-07T09:45:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- scroll -->
       </class> <!-- com.healowhub.tc.Scroll2Test -->
       <class name="com.healowhub.tc.Scroll3Test">
-        <test-method status="PASS" signature="scroll()[pri:27, instance:com.healowhub.tc.Scroll3Test@3e96bacf]" name="scroll" duration-ms="17" started-at="2019-06-06T14:40:22Z" finished-at="2019-06-06T14:40:22Z">
+        <test-method status="PASS" signature="scroll()[pri:27, instance:com.healowhub.tc.Scroll3Test@3e96bacf]" name="scroll" duration-ms="13" started-at="2019-06-07T09:45:03Z" finished-at="2019-06-07T09:45:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- scroll -->
       </class> <!-- com.healowhub.tc.Scroll3Test -->
       <class name="com.healowhub.tc.CaloriesTest">
-        <test-method status="PASS" signature="verifyTitle()[pri:14, instance:com.healowhub.tc.CaloriesTest@3f56875e]" name="verifyTitle" duration-ms="37" started-at="2019-06-06T14:40:21Z" finished-at="2019-06-06T14:40:21Z">
+        <test-method status="PASS" signature="verifyTitle()[pri:14, instance:com.healowhub.tc.CaloriesTest@3f56875e]" name="verifyTitle" duration-ms="484" started-at="2019-06-07T09:45:01Z" finished-at="2019-06-07T09:45:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTitle -->
-        <test-method status="PASS" signature="weekOne()[pri:15, instance:com.healowhub.tc.CaloriesTest@3f56875e]" name="weekOne" duration-ms="123" started-at="2019-06-06T14:40:21Z" finished-at="2019-06-06T14:40:21Z">
+        <test-method status="PASS" signature="weekOne()[pri:15, instance:com.healowhub.tc.CaloriesTest@3f56875e]" name="weekOne" duration-ms="170" started-at="2019-06-07T09:45:01Z" finished-at="2019-06-07T09:45:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- weekOne -->
-        <test-method status="PASS" signature="weekFour()[pri:16, instance:com.healowhub.tc.CaloriesTest@3f56875e]" name="weekFour" duration-ms="148" started-at="2019-06-06T14:40:21Z" finished-at="2019-06-06T14:40:21Z">
+        <test-method status="PASS" signature="weekFour()[pri:16, instance:com.healowhub.tc.CaloriesTest@3f56875e]" name="weekFour" duration-ms="200" started-at="2019-06-07T09:45:01Z" finished-at="2019-06-07T09:45:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- weekFour -->
-        <test-method status="PASS" signature="weekTwelve()[pri:17, instance:com.healowhub.tc.CaloriesTest@3f56875e]" name="weekTwelve" duration-ms="115" started-at="2019-06-06T14:40:21Z" finished-at="2019-06-06T14:40:21Z">
+        <test-method status="PASS" signature="weekTwelve()[pri:17, instance:com.healowhub.tc.CaloriesTest@3f56875e]" name="weekTwelve" duration-ms="271" started-at="2019-06-07T09:45:02Z" finished-at="2019-06-07T09:45:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- weekTwelve -->
       </class> <!-- com.healowhub.tc.CaloriesTest -->
       <class name="com.healowhub.tc.FloorsTest">
-        <test-method status="PASS" signature="verifyTitle()[pri:23, instance:com.healowhub.tc.FloorsTest@3571b748]" name="verifyTitle" duration-ms="32" started-at="2019-06-06T14:40:22Z" finished-at="2019-06-06T14:40:22Z">
+        <test-method status="PASS" signature="verifyTitle()[pri:23, instance:com.healowhub.tc.FloorsTest@3571b748]" name="verifyTitle" duration-ms="57" started-at="2019-06-07T09:45:02Z" finished-at="2019-06-07T09:45:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTitle -->
-        <test-method status="PASS" signature="weekOne()[pri:24, instance:com.healowhub.tc.FloorsTest@3571b748]" name="weekOne" duration-ms="125" started-at="2019-06-06T14:40:22Z" finished-at="2019-06-06T14:40:22Z">
+        <test-method status="PASS" signature="weekOne()[pri:24, instance:com.healowhub.tc.FloorsTest@3571b748]" name="weekOne" duration-ms="246" started-at="2019-06-07T09:45:03Z" finished-at="2019-06-07T09:45:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- weekOne -->
-        <test-method status="PASS" signature="weekFour()[pri:25, instance:com.healowhub.tc.FloorsTest@3571b748]" name="weekFour" duration-ms="108" started-at="2019-06-06T14:40:22Z" finished-at="2019-06-06T14:40:22Z">
+        <test-method status="PASS" signature="weekFour()[pri:25, instance:com.healowhub.tc.FloorsTest@3571b748]" name="weekFour" duration-ms="126" started-at="2019-06-07T09:45:03Z" finished-at="2019-06-07T09:45:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- weekFour -->
-        <test-method status="PASS" signature="weekTwelve()[pri:26, instance:com.healowhub.tc.FloorsTest@3571b748]" name="weekTwelve" duration-ms="94" started-at="2019-06-06T14:40:22Z" finished-at="2019-06-06T14:40:22Z">
+        <test-method status="PASS" signature="weekTwelve()[pri:26, instance:com.healowhub.tc.FloorsTest@3571b748]" name="weekTwelve" duration-ms="117" started-at="2019-06-07T09:45:03Z" finished-at="2019-06-07T09:45:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- weekTwelve -->
       </class> <!-- com.healowhub.tc.FloorsTest -->
       <class name="com.healowhub.tc.StepsTest">
-        <test-method status="PASS" signature="verifyTitle()[pri:32, instance:com.healowhub.tc.StepsTest@4470f8a6]" name="verifyTitle" duration-ms="30" started-at="2019-06-06T14:40:23Z" finished-at="2019-06-06T14:40:23Z">
+        <test-method status="PASS" signature="verifyTitle()[pri:32, instance:com.healowhub.tc.StepsTest@4470f8a6]" name="verifyTitle" duration-ms="77" started-at="2019-06-07T09:45:04Z" finished-at="2019-06-07T09:45:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTitle -->
-        <test-method status="PASS" signature="weekOne()[pri:33, instance:com.healowhub.tc.StepsTest@4470f8a6]" name="weekOne" duration-ms="131" started-at="2019-06-06T14:40:23Z" finished-at="2019-06-06T14:40:23Z">
+        <test-method status="PASS" signature="weekOne()[pri:33, instance:com.healowhub.tc.StepsTest@4470f8a6]" name="weekOne" duration-ms="131" started-at="2019-06-07T09:45:04Z" finished-at="2019-06-07T09:45:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- weekOne -->
-        <test-method status="PASS" signature="weekFour()[pri:34, instance:com.healowhub.tc.StepsTest@4470f8a6]" name="weekFour" duration-ms="102" started-at="2019-06-06T14:40:23Z" finished-at="2019-06-06T14:40:23Z">
+        <test-method status="PASS" signature="weekFour()[pri:34, instance:com.healowhub.tc.StepsTest@4470f8a6]" name="weekFour" duration-ms="128" started-at="2019-06-07T09:45:04Z" finished-at="2019-06-07T09:45:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- weekFour -->
-        <test-method status="PASS" signature="weekTwelve()[pri:35, instance:com.healowhub.tc.StepsTest@4470f8a6]" name="weekTwelve" duration-ms="100" started-at="2019-06-06T14:40:23Z" finished-at="2019-06-06T14:40:23Z">
+        <test-method status="PASS" signature="weekTwelve()[pri:35, instance:com.healowhub.tc.StepsTest@4470f8a6]" name="weekTwelve" duration-ms="111" started-at="2019-06-07T09:45:04Z" finished-at="2019-06-07T09:45:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- weekTwelve -->
       </class> <!-- com.healowhub.tc.StepsTest -->
       <class name="com.healowhub.tc.ScrollTest">
-        <test-method status="PASS" signature="scroll()[pri:9, instance:com.healowhub.tc.ScrollTest@672872e1]" name="scroll" duration-ms="13" started-at="2019-06-06T14:40:20Z" finished-at="2019-06-06T14:40:20Z">
+        <test-method status="PASS" signature="scroll()[pri:9, instance:com.healowhub.tc.ScrollTest@672872e1]" name="scroll" duration-ms="42" started-at="2019-06-07T09:45:00Z" finished-at="2019-06-07T09:45:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- scroll -->
       </class> <!-- com.healowhub.tc.ScrollTest -->
       <class name="com.healowhub.tc.BSugarTest">
-        <test-method status="PASS" signature="start()[pri:0, instance:com.healowhub.tc.BSugarTest@7c1e2a9e]" name="start" is-config="true" duration-ms="32161" started-at="2019-06-06T14:39:35Z" finished-at="2019-06-06T14:40:07Z">
+        <test-method status="PASS" signature="start()[pri:0, instance:com.healowhub.tc.BSugarTest@7c1e2a9e]" name="start" is-config="true" duration-ms="35693" started-at="2019-06-07T09:44:09Z" finished-at="2019-06-07T09:44:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method status="PASS" signature="hubScreen()[pri:1, instance:com.healowhub.tc.BSugarTest@7c1e2a9e]" name="hubScreen" duration-ms="12103" started-at="2019-06-06T14:40:07Z" finished-at="2019-06-06T14:40:19Z">
+        <test-method status="PASS" signature="hubScreen()[pri:1, instance:com.healowhub.tc.BSugarTest@7c1e2a9e]" name="hubScreen" duration-ms="13822" started-at="2019-06-07T09:44:45Z" finished-at="2019-06-07T09:44:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- hubScreen -->
-        <test-method status="PASS" signature="oneWeek()[pri:2, instance:com.healowhub.tc.BSugarTest@7c1e2a9e]" name="oneWeek" duration-ms="136" started-at="2019-06-06T14:40:20Z" finished-at="2019-06-06T14:40:20Z">
+        <test-method status="PASS" signature="oneWeek()[pri:2, instance:com.healowhub.tc.BSugarTest@7c1e2a9e]" name="oneWeek" duration-ms="150" started-at="2019-06-07T09:44:59Z" finished-at="2019-06-07T09:44:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- oneWeek -->
-        <test-method status="PASS" signature="twelveWeek()[pri:3, instance:com.healowhub.tc.BSugarTest@7c1e2a9e]" name="twelveWeek" duration-ms="109" started-at="2019-06-06T14:40:20Z" finished-at="2019-06-06T14:40:20Z">
+        <test-method status="PASS" signature="twelveWeek()[pri:3, instance:com.healowhub.tc.BSugarTest@7c1e2a9e]" name="twelveWeek" duration-ms="141" started-at="2019-06-07T09:44:59Z" finished-at="2019-06-07T09:44:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- twelveWeek -->

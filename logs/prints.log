@@ -441,3 +441,92 @@
 10:40:23.555 [main] INFO  com.healowhub.base.Base - week one clickable under Steps
 10:40:23.674 [main] INFO  com.healowhub.base.Base - week four clickable under Steps
 10:40:23.790 [main] INFO  com.healowhub.base.Base - week twelve clickable under Steps
+11:16:59.046 [main] INFO  com.healowhub.base.Base - driver is initialized
+11:17:37.053 [main] INFO  com.healowhub.base.Base - title verified of BloodPressure
+11:17:37.223 [main] INFO  com.healowhub.base.Base - week one clickable under BloodPressure
+11:17:37.396 [main] INFO  com.healowhub.base.Base - week four clickable under BloodPressure
+11:17:37.503 [main] INFO  com.healowhub.base.Base - week twelve clickable under BloodPressure
+11:17:37.601 [main] INFO  com.healowhub.base.Base - title verified of BMI
+11:17:37.780 [main] INFO  com.healowhub.base.Base - week one clickable under BMI
+11:17:37.925 [main] INFO  com.healowhub.base.Base - week four clickable under BMI
+11:17:38.037 [main] INFO  com.healowhub.base.Base - week twelve clickable under BMI
+11:17:38.093 [main] INFO  com.healowhub.base.Base - title verified of Calories
+11:17:38.243 [main] INFO  com.healowhub.base.Base - week one clickable under Calories
+11:17:38.383 [main] INFO  com.healowhub.base.Base - week four clickable under Calories
+11:17:38.523 [main] INFO  com.healowhub.base.Base - week twelve clickable under Calories
+11:17:38.615 [main] INFO  com.healowhub.base.Base - title verified of Distance
+11:17:38.781 [main] INFO  com.healowhub.base.Base - week one clickable under Calories
+11:17:38.925 [main] INFO  com.healowhub.base.Base - week four clickable under Distance
+11:17:39.033 [main] INFO  com.healowhub.base.Base - week twelve clickable under Distance
+11:17:39.118 [main] INFO  com.healowhub.base.Base - title verified of Floors
+11:17:39.256 [main] INFO  com.healowhub.base.Base - week one clickable under Floors
+11:17:39.387 [main] INFO  com.healowhub.base.Base - week four clickable under Floors
+11:17:39.497 [main] INFO  com.healowhub.base.Base - week twelve clickable under Floors
+11:17:39.579 [main] INFO  com.healowhub.base.Base - title verified of Sleep
+11:17:39.726 [main] INFO  com.healowhub.base.Base - week one clickable under Sleep
+11:17:39.881 [main] INFO  com.healowhub.base.Base - week four clickable under Sleep
+11:17:39.986 [main] INFO  com.healowhub.base.Base - week twelve clickable under Sleep
+11:17:40.045 [main] INFO  com.healowhub.base.Base - title verified of Steps
+11:17:40.187 [main] INFO  com.healowhub.base.Base - week one clickable under Steps
+11:17:40.300 [main] INFO  com.healowhub.base.Base - week four clickable under Steps
+11:17:40.409 [main] INFO  com.healowhub.base.Base - week twelve clickable under Steps
+11:23:54.310 [main] INFO  com.healowhub.base.Base - driver is initialized
+11:24:31.813 [main] INFO  com.healowhub.base.Base - title verified of BloodPressure
+11:24:31.960 [main] INFO  com.healowhub.base.Base - week one clickable under BloodPressure
+11:24:32.125 [main] INFO  com.healowhub.base.Base - week four clickable under BloodPressure
+11:24:32.239 [main] INFO  com.healowhub.base.Base - week twelve clickable under BloodPressure
+11:24:32.355 [main] INFO  com.healowhub.base.Base - title verified of BMI
+11:24:32.577 [main] INFO  com.healowhub.base.Base - week one clickable under BMI
+11:24:32.696 [main] INFO  com.healowhub.base.Base - week four clickable under BMI
+11:24:32.812 [main] INFO  com.healowhub.base.Base - week twelve clickable under BMI
+11:24:32.865 [main] INFO  com.healowhub.base.Base - title verified of Calories
+11:24:33.021 [main] INFO  com.healowhub.base.Base - week one clickable under Calories
+11:24:33.171 [main] INFO  com.healowhub.base.Base - week four clickable under Calories
+11:24:33.387 [main] INFO  com.healowhub.base.Base - week twelve clickable under Calories
+11:24:33.471 [main] INFO  com.healowhub.base.Base - title verified of Distance
+11:24:33.655 [main] INFO  com.healowhub.base.Base - week one clickable under Calories
+11:24:33.771 [main] INFO  com.healowhub.base.Base - week four clickable under Distance
+11:24:33.883 [main] INFO  com.healowhub.base.Base - week twelve clickable under Distance
+11:24:33.942 [main] INFO  com.healowhub.base.Base - title verified of Floors
+11:24:34.090 [main] INFO  com.healowhub.base.Base - week one clickable under Floors
+11:24:34.199 [main] INFO  com.healowhub.base.Base - week four clickable under Floors
+11:24:34.307 [main] INFO  com.healowhub.base.Base - week twelve clickable under Floors
+11:24:34.397 [main] INFO  com.healowhub.base.Base - title verified of Sleep
+11:24:34.562 [main] INFO  com.healowhub.base.Base - week one clickable under Sleep
+11:24:34.683 [main] INFO  com.healowhub.base.Base - week four clickable under Sleep
+11:24:34.790 [main] INFO  com.healowhub.base.Base - week twelve clickable under Sleep
+11:24:34.882 [main] INFO  com.healowhub.base.Base - title verified of Steps
+11:24:35.019 [main] INFO  com.healowhub.base.Base - week one clickable under Steps
+11:24:35.137 [main] INFO  com.healowhub.base.Base - week four clickable under Steps
+11:24:35.260 [main] INFO  com.healowhub.base.Base - week twelve clickable under Steps
+05:42:22.381 [main] INFO  com.healowhub.base.Base - driver is initialized
+05:43:54.348 [main] INFO  com.healowhub.base.Base - driver is initialized
+05:44:14.952 [main] INFO  com.healowhub.base.Base - driver is initialized
+05:44:59.661 [main] INFO  com.healowhub.base.Base - title verified of BloodPressure
+05:44:59.929 [main] INFO  com.healowhub.base.Base - week one clickable under BloodPressure
+05:45:00.101 [main] INFO  com.healowhub.base.Base - week four clickable under BloodPressure
+05:45:00.317 [main] INFO  com.healowhub.base.Base - week twelve clickable under BloodPressure
+05:45:00.501 [main] INFO  com.healowhub.base.Base - title verified of BMI
+05:45:00.682 [main] INFO  com.healowhub.base.Base - week one clickable under BMI
+05:45:00.843 [main] INFO  com.healowhub.base.Base - week four clickable under BMI
+05:45:01.136 [main] INFO  com.healowhub.base.Base - week twelve clickable under BMI
+05:45:01.654 [main] INFO  com.healowhub.base.Base - title verified of Calories
+05:45:01.844 [main] INFO  com.healowhub.base.Base - week one clickable under Calories
+05:45:02.064 [main] INFO  com.healowhub.base.Base - week four clickable under Calories
+05:45:02.354 [main] INFO  com.healowhub.base.Base - week twelve clickable under Calories
+05:45:02.514 [main] INFO  com.healowhub.base.Base - title verified of Distance
+05:45:02.699 [main] INFO  com.healowhub.base.Base - week one clickable under Calories
+05:45:02.809 [main] INFO  com.healowhub.base.Base - week four clickable under Distance
+05:45:02.935 [main] INFO  com.healowhub.base.Base - week twelve clickable under Distance
+05:45:03.010 [main] INFO  com.healowhub.base.Base - title verified of Floors
+05:45:03.272 [main] INFO  com.healowhub.base.Base - week one clickable under Floors
+05:45:03.415 [main] INFO  com.healowhub.base.Base - week four clickable under Floors
+05:45:03.548 [main] INFO  com.healowhub.base.Base - week twelve clickable under Floors
+05:45:03.751 [main] INFO  com.healowhub.base.Base - title verified of Sleep
+05:45:03.952 [main] INFO  com.healowhub.base.Base - week one clickable under Sleep
+05:45:04.093 [main] INFO  com.healowhub.base.Base - week four clickable under Sleep
+05:45:04.238 [main] INFO  com.healowhub.base.Base - week twelve clickable under Sleep
+05:45:04.334 [main] INFO  com.healowhub.base.Base - title verified of Steps
+05:45:04.482 [main] INFO  com.healowhub.base.Base - week one clickable under Steps
+05:45:04.627 [main] INFO  com.healowhub.base.Base - week four clickable under Steps
+05:45:04.758 [main] INFO  com.healowhub.base.Base - week twelve clickable under Steps
